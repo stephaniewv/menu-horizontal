@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 20px;
+}
+
+nav{
+    /* outline: 1px solid yellow; */
+}
+
+ul{
+    /* outline: 1px solid blue; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #2e2e2a;
+    line-height: 40px;
+    }
+
+
+li{
+    /* outline: 1px solid red; */
+    width: 100px;
+    display: inline-block; /*quiero que tenga una naturaleza inline y se pongan una al costado de otra, pero como bloque para modificar sus tamaños*/
+    text-align: center;
+}
+
+a{
+    /* outline: 1px solid green; */
+    text-decoration: none;
+    display: block; /*ocupe todo el espacio que tiene su contenedor padre, en este caso el li*/
+    color: #fff;
+    
+}
+
+a:hover{
+    background: #f9a91a;
+    color: #000;
+}
+
